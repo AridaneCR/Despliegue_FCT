@@ -1,0 +1,168 @@
+/* Estilos globales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.App {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+.company-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Azul */
+    color: white;
+    padding: 10px;
+}
+
+
+.company-header .slogan {
+    font-size: 1.2em;
+}
+
+
+/* Estilos para la galería de imágenes */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+/* Estilos para el banner */
+.company-header {
+    padding: 40px;
+    /* Aumenta el espacio alrededor del header */
+    /* Cambia el color de fondo del header si deseas */
+    text-align: center;
+    /* Centra el contenido del header */
+}
+
+.company-header .slogan {
+    font-size: 32px;
+    /* Ajusta el tamaño del texto del slogan */
+    color: #fff;
+    /* Cambia el color del texto del slogan si deseas */
+}
+
+/* Estilos para el logo */
+/* page.css */
+
+/* Estilos para el logo */
+/* page.css */
+
+.logo-container {
+    position: absolute;
+    /* Establece una posición absoluta para poder mover el logo libremente */
+    top: 250px;
+    /* Ajusta la posición vertical del contenedor del logo */
+    left: 410px;
+    /* Ajusta la posición horizontal del contenedor del logo */
+    background-color: #fff;
+    /* Color de fondo blanco */
+    padding: 10px;
+    /* Añade espacio alrededor del logo */
+    border: 1px solid #ccc;
+    /* Borde alrededor del logo */
+    border-radius: 5px;
+    /* Borde redondeado */
+}
+
+.logo-container img {
+    width: 130px;
+    /* Ajusta el ancho del logo */
+    height: auto;
+    /* Permite que la altura se ajuste automáticamente */
+}
+
+
+/* page.css */
+
+.company-header {
+    display: flex;
+    /* Usa flexbox para alinear elementos */
+    align-items: center;
+    /* Alinea verticalmente los elementos */
+    padding: 20px;
+    /* Aumenta el espacio alrededor del header */
+    /* Cambia el color de fondo del header si deseas */
+}
+
+.company-header .slogan {
+    flex-grow: 1;
+    /* Hace que el slogan ocupe todo el espacio restante */
+    font-size: 24px;
+    /* Ajusta el tamaño del texto del slogan */
+}
+
+.company-header .slogan img {
+    width: 3000px;
+    /* Ajusta el tamaño de la imagen del slogan */
+    height: 180px;
+    /* Permite que la altura se ajuste automáticamente */
+}
+
+.about-us {
+    margin-top: 110px;
+    /* Agrega un margen superior para separar el contenido superior del logo */
+    padding: 40px;
+    /* Añade espacio alrededor del contenido */
+}
+
+
+.office-info {
+
+    margin: 80px;
+    padding: 20px;
+
+}
+
+
+/* styles.css */
+.marker {
+    position: absolute;
+    cursor: pointer;
+    width: 30px;
+    /* Ajusta el tamaño de acuerdo a tu imagen de marcador */
+    height: auto;
+}
+
+/* styles.css */
+
+/* Estilos para la imagen principal */
+/* styles.css */
+
+/* Estilos para la imagen principal */
+.main-image {
+    width: 700px;
+    /* Ancho al 90% del contenedor */
+    height:700px ;
+    /* Altura automática para mantener la proporción */
+}
+
+
+/* Estilos para las ubicaciones */
+.marker {
+    position: absolute;
+    /* Posición absoluta */
+}
